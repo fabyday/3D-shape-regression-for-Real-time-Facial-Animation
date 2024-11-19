@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "yrdy",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "regressor_super_duper.py",
+            "console": "integratedTerminal",
+            "args": ["--mode", "False" ,"--name", "1.5" ,"--output_name","drive.avi", "--train_data_name","1.5"],
+            "justMyCode": true
+        },
+        {
+            "name": "yrdy",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "regressor_super_duper.py",
+            "console": "integratedTerminal",
+            "args": ["--mode", "False" ,"--name", "1.5" ,"--output_name","drive.avi", "--train_data_name","1.5"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "subprocess test main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/visualize_test.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "subProcess": true
+        },
+        {
+            "name": "attach visualize subprocess",
+            "type": "python",
+            "request": "attach",
+            "processId": "${}",
+        }
+
+        
+    ]
+}

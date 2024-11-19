@@ -1,0 +1,2 @@
+ python .\regressor_super_duper.py --mode True --name 1.5_data1 --output_name drive3.avi --train_data_name data1 --hist_norm False
+ python .\regressor_super_duper.py --mode True --name 1.5_data1_hist --output_name drive2.avi --train_data_name data1 --hist_norm True

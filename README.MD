@@ -2,6 +2,14 @@
 
 
 
+# prediction in c++
+python script hard to run realtime(it's super slow... more than we thought.)
+
+I link c++ version predictor.
+
+[cpp-predictor](https://github.com/fabyday/3D-Shape-Regression-for-Real-time-Facial-Animation-cpp)
+
+
 face dataset 
 ```
 >> python ict_download.py
@@ -34,10 +42,14 @@ now you can edit landmark detection.
 60 images
 
 15 neutral pose 
-    num : 1 - 0 degree pose
-    num : 6 - yaw -90 ~ 90 (per 30 degree) : this mean left and right head
-    num : 4 - pitch-30 ~ 30 (per 15 degree)
-    num : 4 - roll -30 ~ 30 (per 15 degree)
+    [ 0 degree pose ] : in front of neutral pose
+        - quntities : 1 
+    [yaw -90 ~ 90 (per 30 degree)] : this mean left and right head
+        - quntities : 6   
+    [pitch-30 ~ 30 (per 15 degree)] :
+        - quntities : 4  
+    [roll -30 ~ 30 (per 15 degree)] :
+        - quntities : 4  
 
 non-rigid pose(expression)
 3 yaw angle -30, 0, 30
@@ -86,3 +98,4 @@ all 2d landmark coordinates is followed opencv coordinates.
     |                                               |
     |_______________________________________________|
 ```
+
